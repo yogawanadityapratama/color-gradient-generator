@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Silkscreen', cursive;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.container {
+  margin-top: 10rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  padding: 26px;
+  border-radius: 30px;
+}
+
+#gradient-box {
+  height: 8rem;
+  width: 25rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background: linear-gradient(45deg, deepskyblue, blue);
+}
+
+.copycode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f1f5fc;
+  border-radius: 5px;
+  border: 1px solid #cfd5d5;
+  margin-bottom: 10px;
+}
+
+#color-code {
+  width: 100%;
+  color: #044db4;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+#copyBtn {
+  width: 30px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+} 

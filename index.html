@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" 
+    >
+    <link
+        rel="stylesheet"
+        href="/assets/css/style.css"
+    >
+    <title>
+        Color Gradient Generator
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 style="text-align: center;">Linear Gradient Color Generator</h3>
+        <h6>create by yogawan</h6>
+            <div id="gradient-box"></div>
+                <div class="copycode">
+            <input type="text" id="color-code" value="linear-gradient(45deg, deepskyblue, blue)" readonly />
+        <button title="click to copy" id="copyBtn"><i class="fas fa-copy"></i></button>
+    </div>
+    <div>
+        <input type="color" name="color1" id="color1" value="#ffffff">
+            <input type="color" name="color2" id="color2" value="#ffffff">
+        </div>
+    </div>
+    <script src="/assets/javascript/script.js"></script>
+</body>
+
+</html>
